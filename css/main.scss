@@ -11,6 +11,10 @@ body {
 .navbar {
   background-color: #141e29 !important;
 
+  i.fab {
+    font-size: 100px;
+  }
+
   .navbar-nav {
     margin-right: auto;
     .nav-item {
@@ -55,21 +59,17 @@ body {
     background-color: #141e2981;
     border-radius: 10px;
     color: #ffffff;
-
+    opacity: 0;
     h1 {
       font-family: $font-secondary;
       font-weight: 700;
     }
 
-    .btn-main {
-      background-color: #3c2766;
+    .btn-success {
       color: #ffffff;
       font-family: $font-main;
-      font-weight: 500;
-
-      &:hover {
-        background-color: #593c92;
-      }
+      font-weight: 300;
+      width: 50%;
     }
   }
 }

@@ -26,7 +26,7 @@
     <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
       <div class="container-fluid">
         <div class="navbar-brand" href="#">
-          <img src="./assets/logo-img.png" width="50" alt="logo-img" />
+          <i class="fas fa-spa"> TravelGo</i>
         </div>
         <button
           class="navbar-toggler"
@@ -63,12 +63,16 @@
       <div class="row">
         <div class="col-lg-12 col-sm-12 section-left">
           <div class="content-left" id="tr-card">
-            <h1>Welcome, Stay Safe Everyone</h1>
-            <p>
+            <h1 id="jumbotron-header">Welcome, Stay Safe Everyone</h1>
+            <p id="subtitle">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa,
               aut.
             </p>
-            <button class="btn btn-main btn-lg">Get Started</button>
+            <div class="d-flex justify-content-center">
+              <button id="btn-header" class="btn btn-success btn-lg">
+                Get Started
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -207,7 +211,7 @@
       integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
       crossorigin="anonymous"
     ></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="./js/main.js"></script>
+    <script src="./node_modules/animejs/lib/anime.min.js"></script>
+    <script src="./js/anime.js"></script>
   </body>
 </html>

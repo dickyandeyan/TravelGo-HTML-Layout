@@ -7,6 +7,9 @@ body {
 .navbar {
   background-color: #141e29 !important;
 }
+.navbar i.fab {
+  font-size: 100px;
+}
 .navbar .navbar-nav {
   margin-right: auto;
 }
@@ -45,19 +48,17 @@ body {
   background-color: #141e2981;
   border-radius: 10px;
   color: #ffffff;
+  opacity: 0;
 }
 .section-left .content-left h1 {
   font-family: "Playfair Display", serif;
   font-weight: 700;
 }
-.section-left .content-left .btn-main {
-  background-color: #3c2766;
+.section-left .content-left .btn-success {
   color: #ffffff;
   font-family: "Roboto", sans-serif;
-  font-weight: 500;
-}
-.section-left .content-left .btn-main:hover {
-  background-color: #593c92;
+  font-weight: 300;
+  width: 50%;
 }
 
 .section-right {
