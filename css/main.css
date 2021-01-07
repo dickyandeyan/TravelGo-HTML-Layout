@@ -48,7 +48,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 88vh;
-  background-image: url(../assets/bg-left.jpg);
+  background-image: url(../assets/raja-ampat-2.jpg);
   background-size: cover;
 }
 .section-left .content-left {
@@ -93,6 +93,41 @@ body {
   font-size: 30px;
   margin: 0 50px;
   color: #c7c7c7;
+}
+
+.destination .card {
+  width: auto;
+  height: 400px;
+  position: relative;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.destination .card .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.3;
+  transition: 0.5s ease;
+  background-color: #212121;
+}
+.destination .card .card-body {
+  position: relative;
+}
+.destination .card .card-body .text {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  color: #fff !important;
+  font-size: 18px;
+}
+.destination .card .card-body .btn-detail {
+  width: 100%;
+  position: relative;
+  top: 80%;
+  bottom: auto;
 }
 
 .content .content-text {
