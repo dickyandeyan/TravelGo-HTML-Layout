@@ -7,8 +7,11 @@ body {
 .navbar {
   background-color: #141e29 !important;
 }
-.navbar i.fab {
-  font-size: 100px;
+.navbar i.fas {
+  margin-left: 10px;
+  font-size: 40px;
+  color: #fff;
+  cursor: default;
 }
 .navbar .navbar-nav {
   margin-right: auto;
@@ -21,6 +24,11 @@ body {
   transition: 0.5s ease-in-out;
   border-bottom: 2px solid #ffffff;
   margin-bottom: 0;
+}
+.navbar .navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
 }
 .navbar .btn-section .btn-success {
   border-radius: 10px;
